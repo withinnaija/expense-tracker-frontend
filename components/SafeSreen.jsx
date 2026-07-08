@@ -7,9 +7,9 @@ const SafeSreen = ({ children }) => {
   return (
     <View
       style={{
-        // paddingTop: insect.top,
+        paddingTop: insect.top,
         flex: 1,
-        backgroungColor: COLORS.primary,
+        backgroungColor: COLORS.background,
       }}
     >
       {children}
